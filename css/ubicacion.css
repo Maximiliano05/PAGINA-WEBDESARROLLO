@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+    max-width: 1500px;
+}
+header{
+   position: relative;
+   width: 100%;
+   min-width: 900px;
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #24252A;
+}
+.logo-desarrollo{
+    margin-left: 50px;
+    color:#fff;
+}
+.cont-ul{
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin-right: 50px;
+    position: absolute;
+
+}
+li{
+ list-style: none;
+ cursor: pointer;
+ padding: 20px;
+ transition: all 0.3s ease 0s;
+
+}
+li:hover{
+    background-color: #008849;
+}
+.ul-second{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+
+}
+.ul-second{
+    border-bottom: solid 1px #008849;
+    text-align: center;
+    background-color: #24252A;
+    padding: 20px;
+    width: 190px;
+    transform: translateX(-27px);
+    padding: 20px;
+
+}
+.ul-second > li:hover{
+  background-color: #008849;
+
+}
+.develop:hover > .ul-second{
+    display: block;
+}
+.ul-third{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    transform: translateX(100%);
+    display: none;
+    background-color: #24252A;
+}
+.ul-third >li{
+    padding: 20px;
+    border-bottom: solid 1px #008849;
+}
+.front:hover> .ul-third{
+    display: block;
+}
+h1{
+color: #008849;	
+}
+h2{
+color: #008849;	
+}
+
